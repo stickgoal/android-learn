@@ -38,6 +38,8 @@ public class HelloActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+    //添加菜单
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main,menu);
